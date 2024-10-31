@@ -1,0 +1,2 @@
+commands:
+ng new first-angular-app
