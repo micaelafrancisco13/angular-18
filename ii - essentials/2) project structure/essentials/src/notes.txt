@@ -1,1 +1,5 @@
 npm start uses ng serve under the hood
+
+Suppose we want to create a user component. Typically, we create a new folder named user within the app folder.
+However, we can also use the Angular CLI to do this.
+ng generate component user
