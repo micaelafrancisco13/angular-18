@@ -1,2 +1,3 @@
 commands:
 ng new first-angular-app
+npm start
