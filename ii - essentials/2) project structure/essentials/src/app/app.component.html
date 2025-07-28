@@ -1,8 +1,20 @@
-<app-header/>
 <main>
-    <ul id="users">
-        <li>
-            <app-user/>
-        </li>
-    </ul>
+  <app-sample-one/>
+  <button type="button" appButton></button>
+  <app-sample-three>
+    <p>Hi</p>
+    <h1 ngProjectAs="icon">Hello!</h1>
+  </app-sample-three>
+  <app-sample-three>
+    <app-sample-one/>
+    <h2 ngProjectAs="icon">Hello there!</h2>
+  </app-sample-three>
+  <app-sample-three>
+    <h2 ngProjectAs="icon">Hi there!</h2>
+  </app-sample-three>
+  <app-sample-four>
+    <p>Projected content into app-sample-four</p>
+  </app-sample-four>
+  <app-parent-counter/>
+  <app-child-counter/>
 </main>
